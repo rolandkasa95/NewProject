@@ -1,0 +1,447 @@
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+<title>
+	Chestionar
+</title>
+
+<link rel="shortcut icon" href="LOGO-U-Nume-300x294.png" />
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        if ($(".input1.this").val() > 7) {
+            $(".input1.this").change() = 7;
+        }
+        if ($(".input1.this").val() < 1) {
+            $(".input1.this").change() = 1;
+        }
+        var referrer = document.referrer;
+        if (referrer == "http://localhost:8080/termeniisiconditii.html") {
+            $('#checkbox-navbar').prop('checked', true);
+        }
+        $(".upper_image").bind('click', function() {
+        var width = $(window).width();
+        alert(width);
+        if (width < 1024) {
+            $(".upper_image").hide();
+        }
+        else {
+            $(".upper_image").show();
+        }  
+        });
+    });
+
+</script>
+
+<style>
+ 	body {
+      font: 500 15px/1.8 Lato, Times New Roman;
+	  margin-top: 0cm;
+	  margin-left: 2cm;
+	  margin-right: 2cm;
+	  margin-bottom: 0cm;
+	  border-left-style: dashed;
+	  border-left-color: lightblue;
+	  border-right-style: dashed;
+	  border-right-color: lightblue;
+      }
+	  
+	p {
+		line-height: 100%;
+	}
+	
+	#poza1 {
+		top: 0;
+		left: 0;
+		opacity: 0.6;
+		filter: alpha(opacity=40);
+	}
+	
+    @media only screen and (min-width: 400px) {
+    .upper_image { 
+       coll
+            }
+    }
+   
+    
+	.tabel1 {
+		background-color: #74AFAD;
+	}
+	
+	.par1 {
+		line-height: 150%;
+	}
+	
+	.input1{
+		background-color: #74AFAD;
+	}
+	#div1 {
+		position: static;
+	}
+	ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+	}
+
+	li {
+		float: left;
+	}
+
+	li a {
+		display: block;
+        font-size: 16px;
+		color: #D3D3D3;
+		text-align: center;
+		padding: 12px 16px;
+		text-decoration: none;
+	}
+
+	li a:hover {
+		background-color: #111;
+     }
+    table td:hover{
+        background-color: white;
+    }
+        input[type="text"] {
+        background-color: transparent;  
+        border-style: solid;  
+        border-width: 0px 0px 1px 0px;  
+        border-color: #74AFAD; 
+        outline:0; 
+  } 
+    input[type=number]::-webkit-inner-spin-button { 
+                        -webkit-appearance: none;
+        cursor:pointer;
+        display:block;
+        width:8px;
+        color: #333;
+        text-align:center;
+        position:relative;
+}
+
+    input[type=number]::-webkit-inner-spin-button:before,
+    input[type=number]::-webkit-inner-spin-button:after {
+        content: "^";
+        position:absolute;
+        right: 0;
+        font-family:monospace;
+        line-height:
+}
+    footer { 
+        font-size: 14px;
+        background-color: #333;
+        border-top: 1px solid #333;
+        padding-bottom: 5px;
+        text-align: center;
+        color: #D3D3D3;
+}
+ </style> 
+
+      
+</head>
+
+
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <ul class="nav navbar-nav">
+      <li><a href="#">Home</a></li>
+      <li><a href="cadredidactice.html">Cadre Didactice</a></li>
+      <li><a href="termeniisiconditii.html">Termeni si Conditii <input type="checkbox" id="checkbox-navbar"> </a>
+      </li>
+      <li><a href="http://math.uvt.ro">Siteul principal</a></li>
+    </ul>
+  </div>
+</nav>
+
+<img id="poza1" alt="UVT1" src="LogoUVT1.png" class="upper_image" style="float:left;width:25%;height:10%;"></img>
+<img id="poza2" alt="UVT2" src="Thumbnail.png" class="upper_image" style="float:right;width:18%;height:7%;"></img>
+<br>
+
+<p align="left" top="cm" class="par1">
+   <strong>GRILĂ DE EVALUARE A PERSONALULUI  DE SUPORT  -  SECRETAR / SECRETARĂ </strong>
+
+</p>
+<p align="center">
+    <strong> </strong>
+</p>
+<form action="move_datas.php">   
+<div align="center">
+    <table border="0" cellspacing="0" cellpadding="0">
+        <tbody>
+            <tr>
+                <td width="869" valign="top" style="border-width: 0">
+                    <p class="par1">
+                        <strong>Nume si prenume Secretar/Secretară program de studii:</strong>
+						<input type="text" max="30" size="60%">
+                    </p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<p align="justify" style="margin-left:3%; margin-right:3%">
+ &nbsp&nbspPentru a îmbunătăţii <strong>calitatea interacţiunii profesionale</strong> dintre studenţi şi personalul de suport (<strong>secretare </strong>    <strong>/</strong><strong> secretari</strong>) din facultatea noastră, vă rugăm să evaluaţi activitatea acestora, referindu-vă în mod direct la activitatea
+    secretariatului aferent specializării pe care o urmaţi.În acest sens, vă rugăm să completaţi într-un mod cât mai <strong>sincer </strong>şi mai <strong>obiectiv</strong> posibil, următoarea grilă de evaluare, precizând că vă asigurăm pe deplin <strong>anonimatul</strong> şi <strong>confidenţialitatea </strong>răspunsurilor dumneavoastră
+</p>
+<p style="margin-left:3%; margin-right:3%">
+ &nbsp&nbsp   Pentru realizarea evaluării vă rugăm să folosiţi următoarea scală:
+</p>
+<div align="center">
+    <table border="1" cellspacing="0" cellpadding="0" width="90%">
+        <tbody>
+            <tr>
+                <td width="11%" valign="top">
+                    <p align="center">
+                        <strong>Extrem de slab/ă</strong>
+                    </p>
+                </td>
+                <td width="11%" valign="top">
+                    <p align="center">
+                        <strong>Foarte slab/ă</strong>
+                    </p>
+                </td>
+                <td width="11%" valign="top">
+                    <p align="center">
+                        <strong>Slab/ă</strong>
+                    </p>
+                </td>
+                <td width="11%" valign="top">
+                    <p align="center">
+                        <strong>Mediu/e</strong>
+                    </p>
+                </td>
+                <td width="11%" valign="top">
+                    <p align="center">
+                        <strong>Bun/ă</strong>
+                    </p>
+                </td>
+                <td width="11%" valign="top">
+                    <p align="center">
+                        <strong>Foarte bun/ă</strong>
+                    </p>
+                </td>
+                <td width="11%" valign="top">
+                    <p align="center">
+                        <strong>Excepţional/ă </strong>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td width="11%" valign="top">
+                    <p align="center">
+                        <strong>1</strong>
+                    </p>
+                </td>
+                <td width="11%" valign="top">
+                    <p align="center">
+                        <strong>2</strong>
+                    </p>
+                </td>
+                <td width="11%" valign="top">
+                    <p align="center">
+                        <strong>3</strong>
+                    </p>
+                </td>
+                <td width="11%" valign="top">
+                    <p align="center">
+                        <strong>4</strong>
+                    </p>
+                </td>
+                <td width="11%" valign="top">
+                    <p align="center">
+                        <strong>5</strong>
+                    </p>
+                </td>
+                <td width="11%" valign="top">
+                    <p align="center">
+                        <strong>6</strong>
+                    </p>
+                </td>
+                <td width="11%" valign="top">
+                    <p align="center">
+                        <strong>7</strong>
+                    </p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<br>
+
+<table border="1" cellspacing="0" cellpadding="0" width="95%" align="center">
+    <tbody>
+        <tr>
+            <td width="100%" colspan="2" valign="bottom">
+                <p align="center" class="par1">
+                    <strong>Criterii de evaluare</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td class="tabel1" width="90%" valign="bottom">
+                <p align="justify" class="par1">
+                    1. <strong>respectarea programului de lucru cu studenţii</strong>
+                </p>
+            </td>
+            <td class="tabel1" width="9%" valign="center">
+			<input type="number" min="1" max="7" valign="center" class="input1">
+            </td>
+        </tr>
+        <tr>
+            <td class="tabel1" width="90%" valign="bottom">
+                <p align="justify" class="par1">
+                    2. <strong>receptivitate faţă de solicitările studenţilor</strong> (ascultă şi răspunde solicitărilor formulate, cu promptitudine şi
+                    seriozitate în rezolvarea lor)
+                </p>
+            </td>
+            <td class="tabel1" width="9%" valign="bottom">
+			<input type="number" min="1" max="7" valign="center" class="input1">
+            </td>
+        </tr>
+        <tr>
+            <td class="tabel1" width="90%" valign="bottom">
+                <p align="justify" class="par1">
+                    3. <strong>cunoştinţe profesionale</strong> (oferă informaţii despre regulamente interne, burse, facilităţi etc. )
+                </p>
+            </td>
+            <td class="tabel1" width="9%" valign="bottom">
+			<input type="number" min="1" max="7" valign="center" class="input1">
+            </td>
+        </tr>
+        <tr>
+            <td class="tabel1" width="90%" valign="bottom">
+                <p align="justify" class="par1">
+                    4. <strong>acurateţea redactării actelor emise </strong>(completarea corectă şi completă a foilor matricole, adeverinţelor, etc.)
+                </p>
+            </td>
+            <td class="tabel1" width="9%" valign="bottom">
+			<input type="number" min="1" max="7" valign="center" class="input1">
+            </td>
+        </tr>
+        <tr>
+            <td class="tabel1" width="90%" valign="bottom">
+                <p align="justify" class="par1">
+                    5. <strong>organizarea activităţii</strong> (afişarea în timp util a informaţiilor de interes pentru studenţi, orare, anunţuri etc.)
+                </p>
+            </td>
+            <td class="tabel1" width="9%" valign="bottom">
+			<input type="number" min="1" max="7" valign="center" class="input1">
+            </td>
+        </tr>
+        <tr>
+            <td class="tabel1" width="90%" valign="bottom">
+                <p align="justify" class="par1">
+                    6. <strong> comunicarea directă cu studenţii </strong>(vorbeşte respectuos, utilizează un limbaj adecvat etc.)
+                </p>
+            </td>
+            <td class="tabel1" width="5%" valign="bottom">
+			<input type="number" min="1" max="7" valign="center" class="input1" onkeyup="onkeyup()">
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<p style="margin-left:3%; margin-right:3%">
+ &nbsp&nbsp   Dacă aţi observat direct abateri etice ale Secretarilor / Secretarelor, vă rugăm să le nominalizaţi succint:
+</p>
+<div align="center">
+    <table border="0" cellspacing="0" cellpadding="0">
+        <tbody>
+            <tr>
+                <td width="50%">
+                    <p align="center" class="par1">
+                        Nume si prenume
+                    </p>
+                </td>
+                <td width="50%">
+                    <p align="center" class="par1">
+                        Abaterea etică observată <strong>direct</strong>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td width="50%" valign="top" style="border-width: 0">
+                    <p class="par1">
+                    <input type="text" maxlength="30" size="50%" style="margin-right: 0.5%">
+                    </p>
+                </td>
+                <td width="50%" valign="top" style="border-width: 0">
+                    <p class="par1">
+                    <input type="text" maxlength="100" size="50%" style="margin-left: 0.5%">
+                    </p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<p align="center">
+    <strong>Aspecte ....</strong>
+</p>
+<table border="0" cellspacing="0" cellpadding="0" align="center" style="width: 90%">
+    <tbody>
+        <tr>
+            <td  valign="top" style="border: 1">
+                <p align="center">
+                    <strong>De îmbunătăţit în activitatea secretariatului..</strong>
+                </p>
+            </td>
+            <td  valign="top" style="border: 1">
+                <p align="center">
+                    <strong>Aspecte pozitive in activitatea secretariatului</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p class="par1">
+                    <strong>1. </strong>
+                     <input type="text" maxlength="100" size="60%">
+                </p>
+            </td>
+            <td>
+                <p class="par1">
+                    <strong>1. </strong>
+                     <input type="text" maxlength="100" size="60%">
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p class="par1">
+                    <strong>2. </strong>
+                     <input type="text" maxlength="100" size="60%">
+                </p>
+            </td>
+            <td>
+                <p class="par1">
+                    <strong>2. </strong>
+                     <input type="text" maxlength="100" size="60%">
+                </p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+    <br>
+
+<div id="div1" align="center">     
+        <input type="submit" name="Submit1" style="font: 800 15px/1.8 Lato, Times New Roman;">
+    </form>
+</div>
+
+<footer>
+  <p>Posted by: Kasa Roland</p>
+  <p>Contact information: <a href="mailto:rolandkasa95@gmail.com" style="color: #D3D3D3">
+  rolandkasa95@gmail.com</a>.</p>
+</footer>
+</body>

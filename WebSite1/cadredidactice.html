@@ -1,0 +1,222 @@
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="cadredidactice_design.css">
+<script src="cadredidactice.js"></script>
+
+<title>
+	Cadre Didactice 
+</title>
+
+<link rel="shortcut icon" href="LOGO-U-Nume-300x294.png" />
+
+</head>
+<body>
+
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <ul class="nav navbar-nav">
+      <li><a href="#">Home</a></li>
+      <li><a href="something.html">Secretare</a></li>
+      <li><a href="termeniisiconditii.html">Termeni si Conditii <input type="checkbox" id="checkbox-navbar"> </a>
+      </li>
+      <li><a href="http://math.uvt.ro">Siteul principal</a></li>
+    </ul>
+  </div>
+</nav>
+
+<img id="poza1" alt="UVT1" src="LogoUVT1.png" class="upper_image" style="float:left;width:25%;height:10%;margin-top: 1%;"></img>
+<img id="poza2" alt="UVT2" src="Thumbnail.png" class="upper_image" style="float:right;width:25%;height:9%; opacity: 1;"></img>
+<br>
+<p id="title1"><b>GRILĂ DE EVALUARE A PERSONALULUI DIDACTIC</b></p>
+<p id="title2"><b>semestrul  I, anul universitar 2015 – 2016</b></p>
+
+<div align="left" style=" margin-left: 5%; margin-top: 25px;">
+<table border="0" >
+  <tr>
+    <td>
+        <strong>Facultatea: <input type="text" id="Facultatea" maxlength="50" size="60%"></strong>
+    </td>
+  </tr>
+  <tr>
+    <td>
+        <strong>Programul de studii: <input type="text" id="ProgramStudii" maxlength="50" size="51%"></strong>
+    </td>
+  </tr>
+</td>
+
+</table>
+</div>
+<div class="container-fluid">
+<div align="right" style="margin-right: 5%; margin-top: -3.7%;">
+        <div class="row">
+        <div class="col-lg-2" style="background-color: #0ff">
+               <strong>Anul: <input type="number" id="An " max="7" min="1" size="15%"> </strong>
+        </div>
+        </div>
+            <strong>Ciclul de studii: <input type="text" id="ciclu" maxlength="30" size="25%"></strong>
+</div>
+<div style="text-align: justify; margin-left: 5%; margin-right: 3%; font-size: 14px; line-height: 100%; margin-top: 1%;">
+&nbsp În vederea creşterii calităţii procesului didactic şi a îmbunătăţirii interacţiunilor dintre cadrele didactice şi studenţii Universităţii de Vest din Timişoara, vă rugăm să evaluaţi activitatea educaţională derulată în secţia dvs., într-un mod cât mai sincer şi mai obiectiv cu putinţă. Pentru aceasta, veţi avea de completat următoarea grilă de evaluare, precizând că vă asigurăm pe deplin anonimatul şi confidenţialitatea răspunsurilor dvs.<u> Vă rugăm, de asemenea, să precizaţi (estimativ) şi frecvenţa dvs. de participare la fiecare curs/seminar în parte.</u>
+</div>
+<div style="text-align: justify; margin-left: 5%; margin-right: 3%; font-size: 14px; line-height: 100%;">
+&nbsp În cazul în care nu puteţi evalua activitatea unui cadru didactic din motive obiective sau ca urmare a participării dumneavoastră reduse la cursurile respective, vă rugăm să nu completaţi criteriile pentru disciplinele în cauză.  Pentru criteriile de apreciere se va utiliza următoarea scală:
+</div>
+</div>
+<div align="center">
+<table id="table_example" width="80%">
+    <tr>
+        <td width="13%">
+            Extrem de slab
+        </td>
+        <td width="13%">
+            Foarte slaba
+        </td>
+        <td width="13%">
+            Slaba
+        </td>
+        <td width="13%">
+            Medie
+        </td>
+        <td width="13%">
+            Buna
+        </td>
+        <td width="13%">
+            Foarte Buna
+        </td>
+        <td width="13%">
+            Exceptional
+        </td>
+    </tr>
+    <tr>
+        <td>
+            1
+        </td>
+        <td>
+            2
+        </td>
+        <td>
+            3
+        </td>
+        <td>
+            4
+        </td>
+        <td>
+            5
+        </td>
+        <td>
+            6
+        </td>
+        <td>
+            7
+        </td>
+
+    </tr>
+</table>
+</div>
+<div id="div_note" align="center">
+<table border="1" class="table_note" width="90%">
+    <tr>
+        <th width="85%">Criterii de apreciere</th>
+        <th width="15%" id="table_note_header2">1//disciplina // numele profesorului</th>
+    </tr>
+    
+    <tr>
+        <td>
+            Activitatea didactica este organizată iniţial, prin prezentarea conţinuturilor disciplinei, bibliografiei, modalităţilor şi criteriilor de evaluare.
+        </td>
+        <td>
+            <input type="number" id="number1" min="1" max="7" size="10">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Conţinutul cursului/seminarului este organizat, coerent şi adecvat tipului de auditoriu
+        </td>
+        <td>
+            <input type="number" id="number2" min="1" max="7" size="10">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Cadrul didactic utilizează metode activ - participative stimulând implicarea studenţilor în procesul de predare-învăţare
+        </td>
+        <td>
+            <input type="number" id="number3" min="1" max="7" size="10">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Limbajul utilizat de către cadrul didactic este accesibil (clar, explicit) şi este susţinut de exemple relevante şi explicaţii suplimentare
+        </td>
+        <td>
+            <input type="number" id="number3" min="1" max="7" size="10">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Cadrul didactic acceptă şi încurajează întrebările studenţilor, dialogul, opiniile alternative şi soluţiile personale
+        </td>
+        <td>
+            <input type="number" id="number3" min="1" max="7" size="10">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Cadrul didactic îşi manifestă disponibilitatea de ajutorare (supervizare / consiliere) suplimentară a studenţilor 
+        </td>
+        <td>
+            <input type="number" id="number3" min="1" max="7" size="10">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Cadrul didactic îşi manifestă disponibilitatea de ajutorare (supervizare / consiliere) suplimentară a studenţilor 
+        </td>
+        <td>
+            <input type="number" id="number3" min="1" max="7" size="10">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Cadrul didactic manifestă limbaj academic şi comportament adecvate
+        </td>
+        <td>
+            <input type="number" id="number3" min="1" max="7" size="10">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Recomandă surse bibliografice suplimentare adecvate temei predate (biblioteca universităţii, alte biblioteci, Internet etc.)
+        </td>
+        <td>
+            <input type="number" id="number3" min="1" max="7" size="10">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Cadrul didactic îşi desfăşoară activitatea didactică cu punctualitate şi realizează un management eficient al timpului.
+        </td>
+        <td>
+            <input type="number" id="number3" min="1" max="7" size="10">
+        </td>
+    </tr>
+    <tr id="note_tr">
+        <th>
+            Participarea  dumneavoastră la activităţile didactice de la 1 (mai puţin de 25%) la 4  (între 76%-100%)
+        </th>
+        <th>
+            <input type="number" id="number3" min="1" max="4" size="10">
+        </th>
+    </tr>
+</table>
+</div>
+
+
+</body>
